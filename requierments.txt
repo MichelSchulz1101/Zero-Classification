@@ -1,7 +1,11 @@
-streamlit>=1.31,<2
-tensorflow
-transformers>=4.38,<5
-torch>=2.2,<3      
-PyMuPDF>=1.24,<1.27
-pandas
+streamlit==1.39.0
+ 
+transformers==4.44.2
+tokenizers==0.19.1
+huggingface-hub==0.24.6
+safetensors==0.4.3
+accelerate==0.33.0
+ 
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.4.1+cpu
 
