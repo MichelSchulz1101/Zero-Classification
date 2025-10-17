@@ -1,5 +1,7 @@
 streamlit>=1.31,<2
+tensorflow
 transformers>=4.38,<5
 torch>=2.2,<3      
 PyMuPDF>=1.24,<1.27
 pandas
+
